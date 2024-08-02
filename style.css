@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 63.5%;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    height: 44rem;
+    padding: 4rem 3.2rem;
+    width: 40rem;
+    background-color: #f8f9fa;
+    margin: 20rem auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form label{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+.form input,select{
+    margin-bottom: 1.2rem;
+    padding: 6px;
+    width: 100%;
+    border: 1px solid #d0ebff;
+}
+.form-child .full{
+    width: 20rem;
+    margin-right: 12px;
+}
+.form-child .least{
+    width: 12rem;
+}
+
+button{
+    width: 12rem;
+    padding: 8px;
+    background-color: #63e6be;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
